@@ -1,0 +1,1 @@
+function e(e){let t=e.replace(/\D/g,``).replace(/^0+(?=\d)/,``);return t===``?``:t.replace(/\B(?=(\d{3})+(?!\d))/g,`,`)}function t(e,t){if(t<=0)return 0;let n=0;for(let r=0;r<e.length;r+=1)if(/\d/.test(e[r]??``)&&(n+=1),n===t)return r+1;return e.length}export{e as n,t};

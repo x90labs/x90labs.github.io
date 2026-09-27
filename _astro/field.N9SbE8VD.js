@@ -1,0 +1,1 @@
+var e=`mt-2 w-full border border-line bg-white px-3 py-3 text-base text-ink outline-none focus:border-navy`,t=`border border-navy bg-navy px-3 py-3 text-sm text-white`;export{t as n,e as t};

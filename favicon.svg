@@ -1,4 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect width="32" height="32" rx="6" fill="#1c1917"/>
-  <text x="16" y="21" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#fafaf9">90</text>
+  <path fill="#0b1c33" d="M5 5h22v6H19v16h-6V11H5V5z"/>
 </svg>
