@@ -1,1 +1,0 @@
-var e=`trn-save`,t=`trn-clear`,n=`trn:theme`;function r(e=location.pathname){return`trn:${e}`}function i(){window.dispatchEvent(new CustomEvent(`trn-storage`))}export{r as a,i,t as n,e as r,n as t};
