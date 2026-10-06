@@ -1,1 +1,0 @@
-var e=`trn-save`,t=`trn-clear`,n=`trn:visits`,r=`trn:autosave`,i=`trn:theme`,a=`trn:favorites`;function o(e=location.pathname){return`trn:${e}`}function s(){window.dispatchEvent(new CustomEvent(`trn-storage`))}export{e as a,o as c,t as i,a as n,n as o,i as r,s,r as t};
