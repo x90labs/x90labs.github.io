@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime.DvU585tb.js";function t(e,t){let n=URL.createObjectURL(e),r=document.createElement(`a`);r.href=n,r.download=t,r.click(),URL.revokeObjectURL(n)}var n=e();function r(e){return(0,n.jsxs)(`p`,{className:`text-xs text-muted`,children:[`파일은 브라우저에서만 처리하며 서버로 보내지 않습니다. `,e?`(${e})`:null]})}export{t as n,r as t};

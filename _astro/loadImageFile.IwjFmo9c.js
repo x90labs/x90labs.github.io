@@ -1,0 +1,1 @@
+function e(e){return new Promise((t,n)=>{let r=URL.createObjectURL(e),i=new Image;i.onload=()=>{URL.revokeObjectURL(r),t(i)},i.onerror=()=>{URL.revokeObjectURL(r),n(Error(`image`))},i.src=r})}function t(e,t,n){return new Promise((r,i)=>{e.toBlob(e=>{e?r(e):i(Error(`blob`))},t,n)})}export{e as n,t};
